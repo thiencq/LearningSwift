@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u9u-Y1-OzI">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Registration-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RegistrationViewController" customModule="RegistrationForm" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AB6-yZ-Xho" userLabel="firstNameTextField">
+                                <rect key="frame" x="20" y="79" width="280" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="c38-WF-ice"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UCH-zB-rhl" userLabel="lastNameTextField">
+                                <rect key="frame" x="20" y="124" width="280" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="1yt-fh-qdD"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qXW-8D-tuK" userLabel="phoneNumberTextField">
+                                <rect key="frame" x="20" y="169" width="280" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="k9b-AF-GSl"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Gender" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FcS-wE-QpN" userLabel="genderTextField">
+                                <rect key="frame" x="20" y="214" width="280" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="qQw-2e-OLu"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-7W-z91" userLabel="dobTextField">
+                                <rect key="frame" x="20" y="259" width="280" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="yd8-2i-kmP"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxq-Tv-cey" userLabel="submitButton">
+                                <rect key="frame" x="140" y="304" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cqA-zH-B4F"/>
+                                    <constraint firstAttribute="width" secondItem="lxq-Tv-cey" secondAttribute="height" id="p6u-MK-ANL"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="icon_submit"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UCH-zB-rhl" firstAttribute="top" secondItem="AB6-yZ-Xho" secondAttribute="bottom" constant="15" id="1Cd-kH-Yn7"/>
+                            <constraint firstItem="UCH-zB-rhl" firstAttribute="trailing" secondItem="AB6-yZ-Xho" secondAttribute="trailing" id="74s-Cc-757"/>
+                            <constraint firstItem="FcS-wE-QpN" firstAttribute="leading" secondItem="AB6-yZ-Xho" secondAttribute="leading" id="AnH-06-SCJ"/>
+                            <constraint firstItem="7cL-7W-z91" firstAttribute="leading" secondItem="AB6-yZ-Xho" secondAttribute="leading" id="Die-K5-9h8"/>
+                            <constraint firstItem="AB6-yZ-Xho" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="H7J-BK-5oG"/>
+                            <constraint firstItem="qXW-8D-tuK" firstAttribute="trailing" secondItem="AB6-yZ-Xho" secondAttribute="trailing" id="KBi-tp-CHa"/>
+                            <constraint firstItem="qXW-8D-tuK" firstAttribute="top" secondItem="UCH-zB-rhl" secondAttribute="bottom" constant="15" id="MLf-AY-9u7"/>
+                            <constraint firstItem="qXW-8D-tuK" firstAttribute="leading" secondItem="AB6-yZ-Xho" secondAttribute="leading" id="OUl-vp-1Hr"/>
+                            <constraint firstItem="AB6-yZ-Xho" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="UJQ-Hv-Owa"/>
+                            <constraint firstItem="lxq-Tv-cey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UjE-Eu-KH0"/>
+                            <constraint firstItem="lxq-Tv-cey" firstAttribute="top" secondItem="7cL-7W-z91" secondAttribute="bottom" constant="15" id="cQH-Uf-Uur"/>
+                            <constraint firstItem="FcS-wE-QpN" firstAttribute="trailing" secondItem="AB6-yZ-Xho" secondAttribute="trailing" id="drf-DP-WaO"/>
+                            <constraint firstItem="7cL-7W-z91" firstAttribute="trailing" secondItem="AB6-yZ-Xho" secondAttribute="trailing" id="rtB-gH-vdi"/>
+                            <constraint firstAttribute="trailing" secondItem="AB6-yZ-Xho" secondAttribute="trailing" constant="20" id="v9Y-uO-3ud"/>
+                            <constraint firstItem="FcS-wE-QpN" firstAttribute="top" secondItem="qXW-8D-tuK" secondAttribute="bottom" constant="15" id="vkB-GE-q1w"/>
+                            <constraint firstItem="UCH-zB-rhl" firstAttribute="leading" secondItem="AB6-yZ-Xho" secondAttribute="leading" id="wIS-Nj-tIs"/>
+                            <constraint firstItem="7cL-7W-z91" firstAttribute="top" secondItem="FcS-wE-QpN" secondAttribute="bottom" constant="15" id="ztq-s8-U9X"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Registration" id="yph-Ww-tei"/>
+                    <connections>
+                        <outlet property="datePicker" destination="YX9-Rb-W4d" id="dGs-oK-0hI"/>
+                        <outlet property="dobTextField" destination="7cL-7W-z91" id="2vB-nZ-dkf"/>
+                        <outlet property="firstNameTextField" destination="AB6-yZ-Xho" id="jLE-U6-ZEP"/>
+                        <outlet property="genderPickerView" destination="I6J-qE-hlC" id="5Q7-a8-Gpu"/>
+                        <outlet property="genderTextField" destination="FcS-wE-QpN" id="JYh-Sh-KK9"/>
+                        <outlet property="lastNameTextField" destination="UCH-zB-rhl" id="Kc8-hb-gC5"/>
+                        <outlet property="phoneNumberTextField" destination="qXW-8D-tuK" id="d5v-GY-UUm"/>
+                        <outlet property="submitButton" destination="lxq-Tv-cey" id="Sel-sI-WsG"/>
+                        <outlet property="textFieldToolbar" destination="j3l-qM-qNO" id="taY-Os-RA7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="YX9-Rb-W4d" userLabel="datePicker">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <date key="date" timeIntervalSinceReferenceDate="513185901.09828001">
+                        <!--2017-04-06 15:38:21 +0000-->
+                    </date>
+                </datePicker>
+                <pickerView contentMode="scaleToFill" id="I6J-qE-hlC" userLabel="genderPickerView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="BYZ-38-t0r" id="6l2-of-OCl"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="1kU-90-LwE"/>
+                    </connections>
+                </pickerView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="j3l-qM-qNO" userLabel="toolbar">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem systemItem="cancel" id="pGW-iD-vcw" userLabel="cancelItem">
+                            <connections>
+                                <action selector="cancelItemDidTouched:" destination="BYZ-38-t0r" id="0Dp-ub-pD6"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="mWh-aP-x7m"/>
+                        <barButtonItem systemItem="done" id="abi-xz-zIJ" userLabel="doneItem">
+                            <connections>
+                                <action selector="doneItemDidTouched:" destination="BYZ-38-t0r" id="Mci-GD-Vmh"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </objects>
+            <point key="canvasLocation" x="1134.375" y="137.32394366197184"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rm0-p5-Qwo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="u9u-Y1-OzI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MrS-GA-226">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gsH-wk-sXv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O5v-BV-7lI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="345" y="137"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_submit" width="50" height="50"/>
+    </resources>
+</document>
