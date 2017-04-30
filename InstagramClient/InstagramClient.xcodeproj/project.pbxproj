@@ -95,14 +95,13 @@
 			children = (
 				043BB02D1EABBE620059FB79 /* Config.swift */,
 				043BB01B1EABBE180059FB79 /* AppDelegate.swift */,
-				043BB01D1EABBE180059FB79 /* ViewController.swift */,
+				04757C361EB5FFD00049E157 /* ViewControllers */,
 				043BB01F1EABBE180059FB79 /* Main.storyboard */,
 				043BB0221EABBE180059FB79 /* Assets.xcassets */,
 				043BB0241EABBE180059FB79 /* LaunchScreen.storyboard */,
 				043BB0271EABBE180059FB79 /* Info.plist */,
-				043DEBBE1EB5BB2E00DA2135 /* FollowersViewController.swift */,
-				043DEBC01EB5BBF800DA2135 /* FollowerCell.swift */,
-				043DEBC21EB5BE8C00DA2135 /* UserProfile.swift */,
+				04757C371EB5FFE20049E157 /* Views */,
+				04757C381EB5FFF20049E157 /* Models */,
 			);
 			path = InstagramClient;
 			sourceTree = "<group>";
@@ -115,6 +114,31 @@
 				043BB0301EABC6550059FB79 /* Alamofire.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		04757C361EB5FFD00049E157 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				043BB01D1EABBE180059FB79 /* ViewController.swift */,
+				043DEBBE1EB5BB2E00DA2135 /* FollowersViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04757C371EB5FFE20049E157 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043DEBC01EB5BBF800DA2135 /* FollowerCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		04757C381EB5FFF20049E157 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				043DEBC21EB5BE8C00DA2135 /* UserProfile.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
