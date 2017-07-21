@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		043BB01C1EABBE180059FB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BB01B1EABBE180059FB79 /* AppDelegate.swift */; };
-		043BB01E1EABBE180059FB79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BB01D1EABBE180059FB79 /* ViewController.swift */; };
 		043BB0211EABBE180059FB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043BB01F1EABBE180059FB79 /* Main.storyboard */; };
 		043BB0231EABBE180059FB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BB0221EABBE180059FB79 /* Assets.xcassets */; };
 		043BB0261EABBE180059FB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043BB0241EABBE180059FB79 /* LaunchScreen.storyboard */; };
 		043BB02E1EABBE620059FB79 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BB02D1EABBE620059FB79 /* Config.swift */; };
 		043BB0321EABC6610059FB79 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043BB0301EABC6550059FB79 /* Alamofire.framework */; };
 		043BB0331EABC6610059FB79 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043BB0301EABC6550059FB79 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		043DEBBF1EB5BB2E00DA2135 /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEBBE1EB5BB2E00DA2135 /* FollowersViewController.swift */; };
-		043DEBC11EB5BBF800DA2135 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEBC01EB5BBF800DA2135 /* FollowerCell.swift */; };
-		043DEBC31EB5BE8C00DA2135 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEBC21EB5BE8C00DA2135 /* UserProfile.swift */; };
 		043DEBC61EB5C2F900DA2135 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043DEBC41EB5C2F200DA2135 /* Mapper.framework */; };
 		043DEBC71EB5C2F900DA2135 /* Mapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043DEBC41EB5C2F200DA2135 /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		043DEBC91EB5C71800DA2135 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043DEBC81EB5C71800DA2135 /* AlamofireImage.framework */; };
 		043DEBCA1EB5C72000DA2135 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043DEBC81EB5C71800DA2135 /* AlamofireImage.framework */; };
 		043DEBCB1EB5C72000DA2135 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043DEBC81EB5C71800DA2135 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04C535411F22453E00877D5B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5353B1F22453E00877D5B /* UserProfile.swift */; };
+		04C535421F22453E00877D5B /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5353D1F22453E00877D5B /* FollowersViewController.swift */; };
+		04C535431F22453E00877D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5353E1F22453E00877D5B /* ViewController.swift */; };
+		04C535441F22453E00877D5B /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C535401F22453E00877D5B /* FollowerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,18 +44,18 @@
 /* Begin PBXFileReference section */
 		043BB0181EABBE180059FB79 /* InstagramClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BB01B1EABBE180059FB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		043BB01D1EABBE180059FB79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		043BB0201EABBE180059FB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043BB0221EABBE180059FB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043BB0251EABBE180059FB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043BB0271EABBE180059FB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043BB02D1EABBE620059FB79 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		043BB0301EABC6550059FB79 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
-		043DEBBE1EB5BB2E00DA2135 /* FollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
-		043DEBC01EB5BBF800DA2135 /* FollowerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
-		043DEBC21EB5BE8C00DA2135 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		043DEBC41EB5C2F200DA2135 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapper.framework; sourceTree = "<group>"; };
 		043DEBC81EB5C71800DA2135 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = "<group>"; };
+		04C5353B1F22453E00877D5B /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		04C5353D1F22453E00877D5B /* FollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		04C5353E1F22453E00877D5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C535401F22453E00877D5B /* FollowerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,13 +95,13 @@
 			children = (
 				043BB02D1EABBE620059FB79 /* Config.swift */,
 				043BB01B1EABBE180059FB79 /* AppDelegate.swift */,
-				04757C361EB5FFD00049E157 /* ViewControllers */,
+				04C5353A1F22453E00877D5B /* Models */,
+				04C5353C1F22453E00877D5B /* ViewControlls */,
+				04C5353F1F22453E00877D5B /* Views */,
 				043BB01F1EABBE180059FB79 /* Main.storyboard */,
 				043BB0221EABBE180059FB79 /* Assets.xcassets */,
 				043BB0241EABBE180059FB79 /* LaunchScreen.storyboard */,
 				043BB0271EABBE180059FB79 /* Info.plist */,
-				04757C371EB5FFE20049E157 /* Views */,
-				04757C381EB5FFF20049E157 /* Models */,
 			);
 			path = InstagramClient;
 			sourceTree = "<group>";
@@ -116,29 +116,29 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		04757C361EB5FFD00049E157 /* ViewControllers */ = {
+		04C5353A1F22453E00877D5B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				043BB01D1EABBE180059FB79 /* ViewController.swift */,
-				043DEBBE1EB5BB2E00DA2135 /* FollowersViewController.swift */,
+				04C5353B1F22453E00877D5B /* UserProfile.swift */,
 			);
-			name = ViewControllers;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		04757C371EB5FFE20049E157 /* Views */ = {
+		04C5353C1F22453E00877D5B /* ViewControlls */ = {
 			isa = PBXGroup;
 			children = (
-				043DEBC01EB5BBF800DA2135 /* FollowerCell.swift */,
+				04C5353D1F22453E00877D5B /* FollowersViewController.swift */,
+				04C5353E1F22453E00877D5B /* ViewController.swift */,
 			);
-			name = Views;
+			path = ViewControlls;
 			sourceTree = "<group>";
 		};
-		04757C381EB5FFF20049E157 /* Models */ = {
+		04C5353F1F22453E00877D5B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				043DEBC21EB5BE8C00DA2135 /* UserProfile.swift */,
+				04C535401F22453E00877D5B /* FollowerCell.swift */,
 			);
-			name = Models;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,12 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043DEBBF1EB5BB2E00DA2135 /* FollowersViewController.swift in Sources */,
-				043BB01E1EABBE180059FB79 /* ViewController.swift in Sources */,
-				043DEBC31EB5BE8C00DA2135 /* UserProfile.swift in Sources */,
-				043DEBC11EB5BBF800DA2135 /* FollowerCell.swift in Sources */,
+				04C535431F22453E00877D5B /* ViewController.swift in Sources */,
+				04C535421F22453E00877D5B /* FollowersViewController.swift in Sources */,
 				043BB01C1EABBE180059FB79 /* AppDelegate.swift in Sources */,
 				043BB02E1EABBE620059FB79 /* Config.swift in Sources */,
+				04C535411F22453E00877D5B /* UserProfile.swift in Sources */,
+				04C535441F22453E00877D5B /* FollowerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
