@@ -12,7 +12,35 @@
 		04C5352B1F2244B500877D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C5352A1F2244B500877D5B /* Assets.xcassets */; };
 		04C5352E1F2244B500877D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5352C1F2244B500877D5B /* LaunchScreen.storyboard */; };
 		04C535391F2244F700877D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C535371F2244F700877D5B /* ViewController.swift */; };
+		04C535461F22486800877D5B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C535451F22486800877D5B /* AppConfig.swift */; };
+		04C535481F22497B00877D5B /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C535471F22497B00877D5B /* RSSParser.swift */; };
+		04C5354A1F22530C00877D5B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C535491F22530C00877D5B /* Utilities.swift */; };
+		04C5354C1F2254F500877D5B /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5354B1F2254F500877D5B /* ArticleCell.swift */; };
+		04C5354E1F2255B800877D5B /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5354D1F2255B800877D5B /* ArticleModel.swift */; };
+		04C535521F22579500877D5B /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5354F1F22578400877D5B /* Mapper.framework */; };
+		04C535531F22579500877D5B /* Mapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5354F1F22578400877D5B /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04C535591F22632B00877D5B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C535551F22632000877D5B /* Alamofire.framework */; };
+		04C5355A1F22632B00877D5B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C535551F22632000877D5B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04C5355B1F22632B00877D5B /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C535561F22632000877D5B /* AlamofireImage.framework */; };
+		04C5355C1F22632B00877D5B /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C535561F22632000877D5B /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04C5355E1F2263E500877D5B /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5355D1F2263E500877D5B /* ArticleDetailViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04C535541F22579600877D5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04C5355C1F22632B00877D5B /* AlamofireImage.framework in Embed Frameworks */,
+				04C535531F22579500877D5B /* Mapper.framework in Embed Frameworks */,
+				04C5355A1F22632B00877D5B /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04C535201F2244B500877D5B /* RSSFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +50,15 @@
 		04C5352D1F2244B500877D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C5352F1F2244B500877D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C535371F2244F700877D5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C535451F22486800877D5B /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		04C535471F22497B00877D5B /* RSSParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
+		04C535491F22530C00877D5B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		04C5354B1F2254F500877D5B /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		04C5354D1F2255B800877D5B /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		04C5354F1F22578400877D5B /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapper.framework; sourceTree = "<group>"; };
+		04C535551F22632000877D5B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		04C535561F22632000877D5B /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = "<group>"; };
+		04C5355D1F2263E500877D5B /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C5355B1F22632B00877D5B /* AlamofireImage.framework in Frameworks */,
+				04C535521F22579500877D5B /* Mapper.framework in Frameworks */,
+				04C535591F22632B00877D5B /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +94,7 @@
 		04C535221F2244B500877D5B /* RSSFun */ = {
 			isa = PBXGroup;
 			children = (
+				04C535511F22578800877D5B /* Frameworks */,
 				04C535231F2244B500877D5B /* AppDelegate.swift */,
 				04C535271F2244B500877D5B /* Main.storyboard */,
 				04C535351F2244F700877D5B /* Models */,
@@ -62,6 +103,9 @@
 				04C5352A1F2244B500877D5B /* Assets.xcassets */,
 				04C5352C1F2244B500877D5B /* LaunchScreen.storyboard */,
 				04C5352F1F2244B500877D5B /* Info.plist */,
+				04C535451F22486800877D5B /* AppConfig.swift */,
+				04C535471F22497B00877D5B /* RSSParser.swift */,
+				04C535491F22530C00877D5B /* Utilities.swift */,
 			);
 			path = RSSFun;
 			sourceTree = "<group>";
@@ -69,6 +113,7 @@
 		04C535351F2244F700877D5B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04C5354D1F2255B800877D5B /* ArticleModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -77,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				04C535371F2244F700877D5B /* ViewController.swift */,
+				04C5355D1F2263E500877D5B /* ArticleDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -84,8 +130,19 @@
 		04C535381F2244F700877D5B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04C5354B1F2254F500877D5B /* ArticleCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		04C535511F22578800877D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C535551F22632000877D5B /* Alamofire.framework */,
+				04C535561F22632000877D5B /* AlamofireImage.framework */,
+				04C5354F1F22578400877D5B /* Mapper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +155,7 @@
 				04C5351C1F2244B500877D5B /* Sources */,
 				04C5351D1F2244B500877D5B /* Frameworks */,
 				04C5351E1F2244B500877D5B /* Resources */,
+				04C535541F22579600877D5B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,8 +218,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C535461F22486800877D5B /* AppConfig.swift in Sources */,
 				04C535391F2244F700877D5B /* ViewController.swift in Sources */,
+				04C5354C1F2254F500877D5B /* ArticleCell.swift in Sources */,
 				04C535241F2244B500877D5B /* AppDelegate.swift in Sources */,
+				04C5354A1F22530C00877D5B /* Utilities.swift in Sources */,
+				04C5354E1F2255B800877D5B /* ArticleModel.swift in Sources */,
+				04C5355E1F2263E500877D5B /* ArticleDetailViewController.swift in Sources */,
+				04C535481F22497B00877D5B /* RSSParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +348,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSSFun",
+				);
 				INFOPLIST_FILE = RSSFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.home.RSSFun;
@@ -296,6 +364,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSSFun",
+				);
 				INFOPLIST_FILE = RSSFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.home.RSSFun;
